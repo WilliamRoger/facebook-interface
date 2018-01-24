@@ -28,7 +28,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #E9EBEE;
+  background-color: #e6e8ec;
   font-family: helvetica, arial, sans-serif;
 }
 
@@ -74,8 +74,8 @@ input[type="file"] {
 }
 
 .botaoDestaque {
-  background: #4267B2;
-  border: 1px solid #4267B2;
+  background: #4466ae;
+  border: 1px solid #4568b2;
   color: #FFFFFF;
   font-size: 12px;
   font-weight: bold;
@@ -83,7 +83,7 @@ input[type="file"] {
 }
 
 .botaoDestaque:hover {
-  background-color: #365899;
+  background-color: #2d4373;
 }
 
 .divisorVertical {
@@ -120,7 +120,7 @@ input[type="file"] {
 .cabecalho {
   height: 45px;
   background-color: #3B5998;
-  border-bottom: 1px solid #29487D;
+  border-bottom: 1px solid #30487b;
 }
 
 .feedNoticias {
@@ -177,7 +177,7 @@ input[type="file"] {
 }
 
 .infoGerais ul li a:hover {
-  background-color: #DDDFE2;
+  background-color: #dcdee1;
 }
 
 .outrasInformacoes {
@@ -238,7 +238,7 @@ input[type="file"] {
   position: relative;
   border-radius: 2px;
   padding: 0 5px;
-  color: #365899;
+  color: #2d4373;
   font-size: 12px;
   font-weight: bold;
   line-height: 22px;
