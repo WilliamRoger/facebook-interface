@@ -100,6 +100,96 @@ input[type="file"] {
   background-image: url(image/mundo.png);
 }
 
+.btCurtir {
+  position: relative;
+  color: #7f7f7f;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  margin-right: 20px;
+  padding: 4px 4px 4px 0;
+  cursor: pointer;
+}
+
+.btCurtir:before {
+  background-image: url(image/curtir.png);
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  margin: 0 6px -3px 0;
+  width: 14px;
+  height: 14px;
+}
+
+.reacoes {
+  position: absolute;
+  padding: 5px;
+  margin-top: -70px;
+  box-shadow: 1px 1px 2px #cccccc, -1px 0px 2px #eeeeee;
+  border-radius: 44px 44px;
+  flex-direction: row;
+  display: none;
+  z-index: 1;
+}
+
+.reacoes div {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.reacoes div span {
+  display: block;
+  text-align: center;
+  position: absolute;
+  padding: 3px 4px;
+  background-color: #333333;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: #fff;
+  opacity: 0;
+  top: -25px;
+}
+
+.reacoes div:hover {
+  transform: scale(1.3, 1.3) translateY(-5px);
+}
+
+.reacoes div:hover span {
+  opacity: 0.9;
+}
+
+.curtir:hover .reacoes {
+  display: flex;
+}
+
+.reacaoCurtir {
+  background: url(image/curti.png);
+}
+
+.reacaoAmei {
+  background: url(image/amei.png);
+}
+
+.reacaoHaha {
+  background: url(image/haha.png);
+}
+
+.reacaoUau {
+  background: url(image/uau.png);
+}
+
+.reacaoTriste {
+  background: url(image/triste.png);
+}
+
+.reacaoGrr {
+  background: url(image/grr.png);
+}
+
 .conteudo {
   min-height: 600px;
   display: flex;
@@ -267,6 +357,8 @@ input[type="file"] {
 
 .boxPublicacao {
   height: 500px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .boxInfo {
